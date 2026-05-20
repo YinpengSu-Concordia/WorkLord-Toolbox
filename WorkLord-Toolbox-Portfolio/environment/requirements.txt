@@ -1,0 +1,71 @@
+WorkLord Toolbox - Environment Requirements (Simplified Version)
+=====================================================
+Basic Environment
+
+Python >= 3.9, < 3.13 # Recommended: Python 3.10 or 3.11, compatible with Thonny
+
+Required Dependencies (Core computation and plotting)
+
+numpy >= 1.23.0 # Numerical computation
+matplotlib >= 3.6.0 # Plotting
+typing-extensions >= 4.5.0 # Extra typing support (for some Python versions)
+
+Recommended Dependency (Improved development and runtime experience)
+
+pathlib # Cross-platform path handling (built-in since Python 3.4, no installation required)
+
+Detailed Requirements
+WorkLord Toolbox - Runtime Environment Guide
+
+This document specifies the basic environment and dependency requirements for running WorkLord Toolbox.
+The toolbox has been tested successfully under Thonny with Python 3.10/3.11.
+
+1. Python Version Requirements
+
+Recommended Versions: Python 3.10 or 3.11
+
+Minimum Supported Version: Python 3.9
+
+Maximum Supported Version: Python 3.12
+
+Note: Python 3.13 has not been fully tested yet and may cause compatibility issues.
+
+2. Core Dependencies
+Library	Version Requirement	Usage Description
+numpy	>= 1.23.0	Numerical computation (e.g., generating evenly spaced sequences, matrix operations, mathematical functions)
+matplotlib	>= 3.6.0	Plotting various simulation results (efficiency curves, stress curves, comparison charts, etc.)
+typing-extensions	>= 4.5.0	Provides additional type annotations to ensure compatibility across different Python versions
+3. Built-in Dependencies
+
+pathlib: Cross-platform file path management (built-in since Python 3.4, no installation required)
+
+4. Recommended Runtime Environment
+
+Operating System: Windows / macOS / Linux
+
+Editors: Thonny (recommended), PyCharm, VS Code, etc.
+
+Installation: Install dependencies within a proper Python virtual environment
+
+5. Preparation Before Running
+
+Ensure the Python version meets the requirements
+
+Ensure the above dependencies are installed (with versions not lower than specified)
+
+Navigate to the scripts folder and run:
+
+python main.py
+
+6. Output Results
+
+After execution, all generated figures will be saved in:
+results/figures/
+
+Filenames will include the corresponding simulation parameters (e.g., β values), making them easy to distinguish.
+
+7. Compatibility Notes
+
+This toolbox does not rely on GPU or deep learning frameworks, and requires minimal computational resources.
+
+It can run smoothly on ordinary laptops or desktop computers.
